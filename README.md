@@ -41,7 +41,7 @@ from: https://github.com/jorgealcubilla/traffic_density
 Traffic Camera selection: Although the traffic cameras used to train and test our model are available, they constantly change their focusing what means that the extension of the area subject to analysis is variable.
 
 As we need a fixed area for comparison purposes, I selected a traffic camera from another source. <br>
-Traffic cameras from “http://www.drivebc.ca/” have a fixed focus, so they are perfect for this example. <br>
+Traffic cameras from http://www.drivebc.ca/ have a fixed focus, so they are perfect for this example. <br>
 I selected one of them.
 
 Automation: As the selected traffic camera updates the image every 15 minutes, I have scheduled a task on my operating system (Windows) to automate the Python script execution and commit&push the prediction from my local computer to the Github repository of the website https://github.com/jorgealcubilla/traffic_density. <br>
