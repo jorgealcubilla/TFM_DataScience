@@ -31,8 +31,8 @@ Since the model analyzed and tested in this project has been specifically traine
 
 #### Example:
 The selected example is a Python script called “traffic.py” (file included in this project) that collects an image from a traffic webcam and saves:
-- The image estimated traffic density estimation in the folder used by a website. <br>
-See website example on: 
+- The image estimated traffic density estimation in the folder used by a webpage. <br>
+See webpage example on: 
 https://jorgealcubilla.github.io/traffic_density/ , <br>
 from: https://github.com/jorgealcubilla/traffic_density
 
