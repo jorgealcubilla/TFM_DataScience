@@ -21,14 +21,15 @@ For further information and instructions on how to download this dataset properl
 ### 3) Selected model test
 In this section, we will replicate test results on TRANCOS dataset obtained in the paper mentioned above.
 
-We will use the Keras model built in section# 1 and load parameters trained with Caffe.
+We will use the Keras model built in section# 1 and load parameters trained with Caffe.<br>
 This is a hard job that we can complete thanks to the Github project ['caffe_weight_converter'](https://github.com/pierluigiferrari/caffe_weight_converter) by Pierluigi Ferrari.
 
 The whole process is in notebook [iii_model_test](https://github.com/jorgealcubilla/TFM_DataScience/blob/master/iii_model_test.ipynb) of this project. 
 
 ### 4) Analysis for improvement
 We will analize factors associated with the effectiveness of the model and will look at ways to improve it.
-See notebook [iv_analysis_for_improvement[() of this project.
+See notebook [iv_analysis_for_improvement]
+(https://github.com/jorgealcubilla/TFM_DataScience/blob/master/iv_analysis_for_improvement.ipynb) of this project.
 
 ### 5) Practical application
 Accurately estimating objects from images or videos has become an increasingly important application of computer vision technology for purposes of crowd control and public safety. 
@@ -46,7 +47,7 @@ See webpage example on:
 https://jorgealcubilla.github.io/traffic_density/ , <br>
 from: https://github.com/jorgealcubilla/traffic_density
 
-- The image and its estimated traffic density in a history dataset, which will allow further improvement of the model (i.e.: analysis, training, test, …) and the website (i.e.: traffic density evolution, traffic density prediction for the rest of the day/week, …).
+- The image and its estimated traffic density in a **history dataset**, which will allow further improvement of the model (i.e.: analysis, training, test, …) and the website (i.e.: traffic density evolution, traffic density prediction for the rest of the day/week, …).
 
 Traffic Camera selection: Although the traffic cameras used to train and test our model are available, they constantly change their focusing what means that the extension of the area subject to analysis is variable.
 
@@ -59,6 +60,6 @@ This way, both, history dataset and website, are updated at the same time as the
 
 The task is executed only during the daytime.
  
+## Conclusions:
 
 
-## References:
