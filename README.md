@@ -8,6 +8,7 @@ The objective of this project is to address this problem by going throuth 4 stag
 ### 1) Selection and analysis of a deep learning model using Keras
 The selected model is based on the paper ['Towards perspective-free object counting with deep learning' by Daniel Oñoro-Rubio and Roberto J. López-Sastre.](http://agamenon.tsc.uah.es/Investigacion/gram/publications/eccv2016-onoro.pdf)
 
+The main challenge of this section will be to translate the Caffe´s original model into Keras´.
 The detailed process can be found in the notebook [i_model_selection](https://github.com/jorgealcubilla/TFM_DataScience/blob/master/i_model_selection.ipynb) within the 'master' folder of this project.
 
 ### 2) Data_set: Selection and validation
@@ -18,9 +19,16 @@ TRANCOS is a dataset designed for vehicle counting in traffic jam scenes, so, it
 For further information and instructions on how to download this dataset properly, see notebook [ii_TRANCOS_db](https://github.com/jorgealcubilla/TFM_DataScience/blob/master/ii_TRANCOS_db.ipynb) within the 'master' folder of this project.
 
 ### 3) Selected model test
+In this section, we will replicate test results on TRANCOS dataset obtained in the paper mentioned above.
 
+We will use the Keras model built in section# 1 and load parameters trained with Caffe.
+This is a hard job that we can complete thanks to the Github project ['caffe_weight_converter'](https://github.com/pierluigiferrari/caffe_weight_converter) by Pierluigi Ferrari.
 
-### 4) Practical application
+See notebook [iii_model_test]()
+
+### 4) Analysis for improvement
+
+### 5) Practical application
 Accurately estimating objects from images or videos has become an increasingly important application of computer vision technology for purposes of crowd control and public safety. 
 
 In some scenarios, such as public rallies and sports events, the number or density of participating people is an essential piece of information for future event planning and space design. 
