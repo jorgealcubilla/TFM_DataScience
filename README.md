@@ -24,9 +24,11 @@ In this section, we will replicate test results on TRANCOS dataset obtained in t
 We will use the Keras model built in section# 1 and load parameters trained with Caffe.
 This is a hard job that we can complete thanks to the Github project ['caffe_weight_converter'](https://github.com/pierluigiferrari/caffe_weight_converter) by Pierluigi Ferrari.
 
-See notebook [iii_model_test]()
+The whole process is in notebook [iii_model_test](https://github.com/jorgealcubilla/TFM_DataScience/blob/master/iii_model_test.ipynb) of this project. 
 
 ### 4) Analysis for improvement
+We will analize factors associated with the effectiveness of the model and will look at ways to improve it.
+See notebook [iv_analysis_for_improvement[() of this project.
 
 ### 5) Practical application
 Accurately estimating objects from images or videos has become an increasingly important application of computer vision technology for purposes of crowd control and public safety. 
