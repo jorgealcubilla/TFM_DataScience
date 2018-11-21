@@ -16,7 +16,7 @@ The code of this script has been structured as follows:
     # Paths setting
     # Script processing code
 
-User manual:
+#############User manual#################################################################################################
 ***This script has been developed to be run using Python3***
 
 This script collects images of traffic from a webpage and returns:
@@ -382,9 +382,7 @@ input_pw = 72
 
 ##### Machine Learning Model #####
 # Root to model´s data (parameters and mask):
-root = os.path.abspath("###path to folders where parameters and mask will be saved")
-# input image:
-img_link = '###path to the image###'
+root = os.path.abspath("###path to folder where both, parameters and mask, will be saved")
 # Model parameters:
 weights_path = os.path.join(root, "model_w.h5") # They can be found in folder "model_parameters" 
                                                                     # of the project this script is based on
@@ -392,6 +390,8 @@ weights_path = os.path.join(root, "model_w.h5") # They can be found in folder "m
 mask_im_path =os.path.join(root, "###file name###")
 
 ##### Last image #####
+# image:
+img_link = '###path to the image###'
 # Root to folder where the last estimation will be saved: 
 repo_root = os.path.abspath('###path to the folder### ')  
 # Give name to the ".txt" file where the estimation will be saved:
