@@ -42,7 +42,7 @@ Since the model analyzed and tested in this project has been specifically traine
 
 #### Example:
 The selected example is based on a Python script called “traffic_script.py” (file included in this project which includes user instruction) that collects an image from a traffic webcam and saves:
-- The estimated traffic density of the last image on a ".txt" file (including date_time of extraction).
+- The estimated traffic density of the last image on a ".txt" file (including date_time of extraction).<br>
 This file could be used to provide information to a webpage (see below). <br>
 - The image and its estimated traffic density in a **history dataset**, which will allow further improvement of the model (i.e.: analysis, training, test, …) and deep analysis of traffic data (i.e.: traffic density evolution, traffic density prediction for the rest of the day/week, …).
 
