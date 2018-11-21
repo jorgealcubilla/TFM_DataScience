@@ -12,7 +12,7 @@ In extremely dense populations, counting by human detection in such images is al
 
 ## Project Phases: 
 
-This project will address this problem by going through 4 phases: 
+This project will address this problem going through 4 phases: 
 
 ### 1) Selection and analysis of a deep learning model using Keras
 The selected model is based on the paper ['Towards perspective-free object counting with deep learning' by Daniel Oñoro-Rubio and Roberto J. López-Sastre.](http://agamenon.tsc.uah.es/Investigacion/gram/publications/eccv2016-onoro.pdf)
