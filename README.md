@@ -64,6 +64,23 @@ This way, both, history dataset and website, are updated at the same time as the
 The task is executed only during the daytime.
  
 ## Conclusions:
+This project is an approach to machine learning applied to congested scenes using a methodology based on density maps.
+
+It has overcome difficulties such as:
+- Find a model that is documented enough to be implemented properly.
+- Make thorough analysis/validation of the dataset, detecting minor errors and room for improvement.
+- Replicate a Caffe model into Keras
+- Translate model parameters from Caffe into Keras
+
+Then, a personal methodology for testing and validation purposes has been implemented and carried out a deep analysis of the selected model.
+
+Some contributions of this project:
+
+- Making machine learning technics based on density maps and the selected model much more understandable and easier to implement.
+- Providing a practical example of: parameters collection, from Caffe models, for advanced Keras models. 
+- Providing a strategy for improvement of the selected model
+
+As a result, the selected model was easily implemented in a Python script that provides estimations of traffic level in real time, which is a valuable source of data for further applications such as traffic analysis and forecast.  
 
 
 
