@@ -3,7 +3,7 @@
 ##
 
 ## Introduction:
-The problem of counting number of object instances visible in a single image becomes even more chellenging in highly dense scenarios which include additional complexity due to factors like perspective, occlusion, clutter, and few pixels per object. 
+The problem of counting number of object instances visible in a single image becomes even more chellenging in highly dense scenarios which include additional complexity due to factors like perspective, occlusion, clutter, and few pixels per object. <br>
 In extremely dense populations, counting by human detection in such images is almost impossible.
 
 ## Project Phases: 
