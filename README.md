@@ -1,9 +1,14 @@
 # Highly Congested Scenes Analysis (i.e.: Traffic)
+
+##
+
 ## Introduction:
 The problem of counting number of object instances visible in a single image becomes even more chellenging in highly dense scenarios which include additional complexity due to factors like perspective, occlusion, clutter, and few pixels per object. 
 In extremely dense populations, counting by human detection in such images is almost impossible.
 
-The objective of this project is to address this problem by going throuth 4 stages: 
+## Project Phases: 
+
+This project will address this problem by going throuth 4 stages: 
 
 ### 1) Selection and analysis of a deep learning model using Keras
 The selected model is based on the paper ['Towards perspective-free object counting with deep learning' by Daniel Oñoro-Rubio and Roberto J. López-Sastre.](http://agamenon.tsc.uah.es/Investigacion/gram/publications/eccv2016-onoro.pdf)
