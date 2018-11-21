@@ -105,7 +105,7 @@ clusterData[clusterData$Clusters == "1",]
 #Their features are different to each other (see above) making them representative of 
 #specific profiles for high levels of predicition error.
 
-# See test notebooks for further analysis.
+# See "analysis_for_improvemet" notebooks of this project for further analysis.
 
 ## -------------------------------------------------------------------------
 ##### ANNEX: Number of clusters selection (Elbow Method) #####
