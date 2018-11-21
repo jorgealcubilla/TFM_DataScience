@@ -41,13 +41,16 @@ Good methods of crowd counting can also be extended to other domains, for instan
 Since the model analyzed and tested in this project has been specifically trained with images from traffic cameras, I have selected an application related to traffic density estimation as an example of practical application of this project.
 
 #### Example:
-The selected example is a Python script called “traffic.py” (file included in this project) that collects an image from a traffic webcam and saves:
-- The image estimated traffic density estimation in the folder used by a webpage. <br>
-See webpage example on: 
+The selected example is based on a Python script called “traffic_script.py” (file included in this project which includes user instruction) that collects an image from a traffic webcam and saves:
+- The estimated traffic density of the last image on a ".txt" file (including date_time of extraction).
+This file could be used to provide information to a webpage (see below). <br>
+- The image and its estimated traffic density in a **history dataset**, which will allow further improvement of the model (i.e.: analysis, training, test, …) and deep analysis of traffic data (i.e.: traffic density evolution, traffic density prediction for the rest of the day/week, …).
+
+A specific application of this script can be found on:
 https://jorgealcubilla.github.io/traffic_density/ , <br>
 from: https://github.com/jorgealcubilla/traffic_density
 
-- The image and its estimated traffic density in a **history dataset**, which will allow further improvement of the model (i.e.: analysis, training, test, …) and the website (i.e.: traffic density evolution, traffic density prediction for the rest of the day/week, …).
+In addition to the instructions included in the script, the following information is also relevant for this specific application:
 
 Traffic Camera selection: Although the traffic cameras used to train and test our model are available, they constantly change their focusing what means that the extension of the area subject to analysis is variable.
 
@@ -61,5 +64,7 @@ This way, both, history dataset and website, are updated at the same time as the
 The task is executed only during the daytime.
  
 ## Conclusions:
+
+
 
 
