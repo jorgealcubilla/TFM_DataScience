@@ -81,7 +81,7 @@ Then, a personal methodology for testing and validation purposes has been implem
 
 Some contributions of this project:
 
-- Making machine learning technics based on density maps and the selected model much more understandable and easier to implement.
+- Making machine learning technics based on density maps, and the selected model, much more understandable and easier to implement.
 - Providing a practical example of: parameters collection, from Caffe models, for advanced Keras models. 
 - Providing a strategy for improvement of the selected model
 
