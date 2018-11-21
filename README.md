@@ -46,7 +46,7 @@ The selected example is based on a Python script called “traffic_script.py” 
 This file could be used to provide information to a webpage (see below). <br>
 - The image and its estimated traffic density in a **history dataset**, which will allow further improvement of the model (i.e.: analysis, training, test, …) and deep analysis of traffic data (i.e.: traffic density evolution, traffic density prediction for the rest of the day/week, …).
 
-A specific application of this script can be found on:
+A specific application of this script can be found on:<br>
 https://jorgealcubilla.github.io/traffic_density/ , <br>
 from: https://github.com/jorgealcubilla/traffic_density
 
