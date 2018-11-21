@@ -407,9 +407,6 @@ csv_path = os.path.join(dataset_path, "###name of the .csv file###") #The file w
 # Script processing code:
 #################################################################################################################
 
-# Remove last estimation before saving a new one
-os.remove(img_density_path) 
-
 #Obtain date and time of the last process execution
 img_date = datetime.datetime.now()
     
