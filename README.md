@@ -73,7 +73,7 @@ This way, both, history dataset and website, are updated at the same time as the
 The task is executed only during the daytime.
  
 ## Conclusions:
-This project is an approach to machine learning applied to congested scenes using a methodology based on density maps.
+This project applies machine learning to congested scenes using a methodology based on density maps.
 
 It has overcome difficulties such as:
 - Find a model that is documented enough to be implemented properly.
