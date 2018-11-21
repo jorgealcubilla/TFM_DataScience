@@ -37,8 +37,7 @@ The whole process is in [iii_model_test](https://github.com/jorgealcubilla/TFM_D
 
 ### 4) Analysis for improvement
 We will analize factors associated with the effectiveness of the model and will look at ways to improve it.
-See notebook [iv_analysis_for_improvement]
-(https://github.com/jorgealcubilla/TFM_DataScience/blob/master/iv_analysis_for_improvement.ipynb) of this project.
+See notebook [iv_analysis_for_improvement](https://github.com/jorgealcubilla/TFM_DataScience/blob/master/iv_analysis_for_improvement.ipynb) of this project.
 
 ### 5) Practical application
 Accurately estimating objects from images or videos has become an increasingly important application of computer vision technology for purposes of crowd control and public safety. 
