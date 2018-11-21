@@ -1,6 +1,10 @@
 # Highly Congested Scenes Analysis (i.e.: Traffic)
 
-##
+## Prerequisites:
+- Python_3, Main libraries: Numpy. Pandas, Keras, CV2, Matplotlib, Scipy, CSV, math, SKimage, glob, os, PIL, h5py, pickle, time, altair, shutil, statsmodel - Caffe installation on googgle colaboratory, for optional test only -
+(Strongly recommended Anaconda as the environment)
+- R, Main libraries: dplyr
+- Some processes will require a powerful GPU
 
 ## Introduction:
 The problem of counting number of object instances visible in a single image becomes even more chellenging in highly dense scenarios which include additional complexity due to factors like perspective, occlusion, clutter, and few pixels per object. <br>
