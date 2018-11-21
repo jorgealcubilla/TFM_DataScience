@@ -88,7 +88,7 @@ Some contributions of this project:
 - Making deep learning technics based on density maps, and the selected model, much more understandable and easier to implement.
 - Providing a practical example of: replication and translation of Caffe models into advanced Keras models. 
 - Providing a strategy for improvement of the selected model
-- Remarking the importance of datasets
+- Remarking the importance of datasets quality
 
 As a result, the selected model was easily implemented in a Python script that provides estimations of traffic level in real time, which is a valuable source of data for further applications such as traffic analysis and forecast.  
 
