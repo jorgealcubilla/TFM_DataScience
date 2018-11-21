@@ -1,4 +1,5 @@
 # Highly Congested Scenes Analysis (i.e.: Traffic)
+*by Jorge Alcubilla (jaasc27@gmail.com), feel free to contact me if you require any further information*
 
 ## Prerequisites:
 - Python_3, Main libraries: Numpy. Pandas, Keras, CV2, Matplotlib, Scipy, CSV, math, SKimage, glob, os, PIL, h5py, pickle, time, altair, shutil, statsmodel - Caffe installation on googgle colaboratory, for optional test only -
